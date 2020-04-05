@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a507c55-8aff-4b81-99bf-08948e4a93d3" name="Default Changelist" comment="" />
+    <list default="true" id="5a507c55-8aff-4b81-99bf-08948e4a93d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ArticleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/HomepageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/LevelController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/SubjectController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/TopicController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/ezplatform.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/ezplatform.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -189,6 +201,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ZUDKf1jMLwYmzwo5VXmUc3QqqS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -196,10 +209,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AppBundle/Controller" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AppBundle/Controller" />
+      <recent name="$PROJECT_DIR$/src/AppBundle" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Behat.behat.yml.dist">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
@@ -219,11 +239,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584884716590</updated>
-      <workItem from="1584884720669" duration="638000" />
+      <workItem from="1584884720669" duration="5892000" />
+      <workItem from="1585054793147" duration="802000" />
+      <workItem from="1585057695178" duration="2786000" />
+      <workItem from="1585651394366" duration="311000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="566" y="220" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585055369572">
+      <screen x="67" y="27" width="3453" height="1053" />
+    </state>
+    <state x="566" y="220" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.3453.1053@67.27.3453.1053" timestamp="1585055369572" />
+    <state x="540" y="276" width="577" height="373" key="NewPhpClassDialog" timestamp="1584887584290">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="540" y="276" width="577" height="373" key="NewPhpClassDialog/67.27.1533.873@67.27.1533.873" timestamp="1584887584290" />
+    <state x="654" y="155" width="349" height="614" key="RollbackChangesDialog" timestamp="1585055624121">
+      <screen x="67" y="27" width="3453" height="1053" />
+    </state>
+    <state x="654" y="155" width="349" height="614" key="RollbackChangesDialog/67.27.3453.1053@67.27.3453.1053" timestamp="1585055624121" />
+    <state x="254" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1585651461525">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="254" y="245" key="com.intellij.ide.util.TipDialog/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1585057795037" />
+    <state x="254" y="245" key="com.intellij.ide.util.TipDialog/67.27.1533.873@67.27.1533.873" timestamp="1585651461525" />
+    <state x="489" y="290" key="com.intellij.ide.util.TipDialog/67.27.3453.1053@67.27.3453.1053" timestamp="1585054797052" />
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1584887495889">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1584887495889" />
   </component>
 </project>
