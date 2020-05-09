@@ -36,3 +36,11 @@ security:
 
             # https://symfony.com/doc/current/security/form_login_setup.html
             #form_login: ~
+
+
+    access_control:
+        #- { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+#        - { path: ^/register, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+#        - { path: ^/api/ezp/v2/user/sessions, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+
+        #- { path: ^/, roles: ROLE_USER }

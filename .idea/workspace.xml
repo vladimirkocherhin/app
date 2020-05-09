@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5a507c55-8aff-4b81-99bf-08948e4a93d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ArticleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/HomepageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/LevelController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/SubjectController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/TopicController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ezplatform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ezplatform.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/ezplatform.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/ezplatform.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/full/home_page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/full/home_page.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/HomepageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/HomepageController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +34,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -204,14 +218,17 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AppBundle/Controller" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ezp2-docker/ezplatform" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -243,17 +260,46 @@
       <workItem from="1585054793147" duration="802000" />
       <workItem from="1585057695178" duration="2786000" />
       <workItem from="1585651394366" duration="311000" />
+      <workItem from="1587202988839" duration="1486000" />
+      <workItem from="1587409051924" duration="1447000" />
+      <workItem from="1587410901008" duration="17000" />
+      <workItem from="1588927137230" duration="644000" />
+      <workItem from="1588939558896" duration="918000" />
+      <workItem from="1588945157198" duration="1018000" />
+      <workItem from="1588960156424" duration="599000" />
+      <workItem from="1589026590718" duration="80000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="535" y="264" width="586" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589026604811">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="535" y="264" width="586" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1533.873@67.27.1533.873" timestamp="1589026604811" />
     <state x="566" y="220" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585055369572">
       <screen x="67" y="27" width="3453" height="1053" />
     </state>
     <state x="566" y="220" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.3453.1053@67.27.3453.1053" timestamp="1585055369572" />
+    <state x="311" y="187" width="374" height="402" key="FileChooserDialogImpl" timestamp="1588942181240">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="311" y="187" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1588942181240" />
+    <state x="311" y="187" width="374" height="402" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1588933270099" />
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.3453.1053@67.27.3453.1053" timestamp="1587410916235" />
     <state x="540" y="276" width="577" height="373" key="NewPhpClassDialog" timestamp="1584887584290">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -262,15 +308,16 @@
       <screen x="67" y="27" width="3453" height="1053" />
     </state>
     <state x="654" y="155" width="349" height="614" key="RollbackChangesDialog/67.27.3453.1053@67.27.3453.1053" timestamp="1585055624121" />
-    <state x="254" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1585651461525">
+    <state x="254" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1586166265157">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="254" y="245" key="com.intellij.ide.util.TipDialog/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1585057795037" />
-    <state x="254" y="245" key="com.intellij.ide.util.TipDialog/67.27.1533.873@67.27.1533.873" timestamp="1585651461525" />
+    <state x="254" y="245" key="com.intellij.ide.util.TipDialog/67.27.1533.873@67.27.1533.873" timestamp="1586166265157" />
     <state x="489" y="290" key="com.intellij.ide.util.TipDialog/67.27.3453.1053@67.27.3453.1053" timestamp="1585054797052" />
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1584887495889">
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1588927176657">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1584887495889" />
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1588927176657" />
+    <state x="655" y="184" width="1514" height="818" key="search.everywhere.popup/67.27.3453.1053@67.27.3453.1053" timestamp="1587410881822" />
   </component>
 </project>
