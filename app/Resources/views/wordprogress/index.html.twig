@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Wordprogresses list</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Status</th>
+                <th>Timetoreview</th>
+                <th>Username</th>
+                <th>Wordlocationid</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for wordProgress in wordProgresses %}
+            <tr>
+                <td><a href="{{ path('wordprogress_show', { 'id': wordProgress.id }) }}">{{ wordProgress.id }}</a></td>
+                <td>{{ wordProgress.status }}</td>
+                <td>{% if wordProgress.timeToReview %}{{ wordProgress.timeToReview|date('Y-m-d H:i:s') }}{% endif %}</td>
+                <td>{{ wordProgress.username }}</td>
+                <td>{{ wordProgress.wordLocationID }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('wordprogress_show', { 'id': wordProgress.id }) }}">show</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('wordprogress_edit', { 'id': wordProgress.id }) }}">edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('wordprogress_new') }}">Create a new wordProgress</a>
+        </li>
+    </ul>
+{% endblock %}

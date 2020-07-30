@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Wordprogress</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ wordProgress.id }}</td>
+            </tr>
+            <tr>
+                <th>Status</th>
+                <td>{{ wordProgress.status }}</td>
+            </tr>
+            <tr>
+                <th>Timetoreview</th>
+                <td>{% if wordProgress.timeToReview %}{{ wordProgress.timeToReview|date('Y-m-d H:i:s') }}{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Username</th>
+                <td>{{ wordProgress.username }}</td>
+            </tr>
+            <tr>
+                <th>Wordlocationid</th>
+                <td>{{ wordProgress.wordLocationID }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('wordprogress_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('wordprogress_edit', { 'id': wordProgress.id }) }}">Edit</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}
