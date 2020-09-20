@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a507c55-8aff-4b81-99bf-08948e4a93d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ezplatform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ezplatform.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ProfileController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/full/home_page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/full/home_page.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/HomepageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/HomepageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/LevelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/LevelController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/ProgressController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ProgressController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,10 +211,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ezp2-docker/ezplatform" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AppBundle/Controller" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -246,6 +234,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -268,56 +257,74 @@
       <workItem from="1588945157198" duration="1018000" />
       <workItem from="1588960156424" duration="599000" />
       <workItem from="1589026590718" duration="80000" />
+      <workItem from="1598947645122" duration="652000" />
+      <workItem from="1598950960071" duration="174000" />
+      <workItem from="1598951152551" duration="7937000" />
+      <workItem from="1599047068127" duration="1477000" />
+      <workItem from="1599066654986" duration="2966000" />
+      <workItem from="1599340048767" duration="4960000" />
+      <workItem from="1599408374300" duration="973000" />
+      <workItem from="1599553810374" duration="1901000" />
+      <workItem from="1599669447832" duration="1774000" />
+      <workItem from="1599849703696" duration="30000" />
+      <workItem from="1599849748084" duration="3311000" />
+      <workItem from="1599864882591" duration="4396000" />
+      <workItem from="1600115049137" duration="608000" />
+      <workItem from="1600272485872" duration="4280000" />
+      <workItem from="1600375548813" duration="5634000" />
+      <workItem from="1600460424569" duration="5513000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="535" y="264" width="586" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589026604811">
+    <state x="622" y="143" width="412" height="638" key="#com.intellij.ide.util.MemberChooser" timestamp="1599865008612">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="535" y="264" width="586" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1533.873@67.27.1533.873" timestamp="1589026604811" />
-    <state x="566" y="220" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585055369572">
-      <screen x="67" y="27" width="3453" height="1053" />
-    </state>
-    <state x="566" y="220" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.3453.1053@67.27.3453.1053" timestamp="1585055369572" />
-    <state x="311" y="187" width="374" height="402" key="FileChooserDialogImpl" timestamp="1588942181240">
+    <state x="622" y="143" width="412" height="638" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1599865008612" />
+    <state x="566" y="220" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599868217026">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="311" y="187" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1588942181240" />
-    <state x="311" y="187" width="374" height="402" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1588933270099" />
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.3453.1053@67.27.3453.1053" timestamp="1587410916235" />
-    <state x="540" y="276" width="577" height="373" key="NewPhpClassDialog" timestamp="1584887584290">
+    <state x="566" y="220" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1533.873@67.27.1533.873" timestamp="1599868217026" />
+    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1600380948535">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="540" y="276" width="577" height="373" key="NewPhpClassDialog/67.27.1533.873@67.27.1533.873" timestamp="1584887584290" />
-    <state x="654" y="155" width="349" height="614" key="RollbackChangesDialog" timestamp="1585055624121">
-      <screen x="67" y="27" width="3453" height="1053" />
-    </state>
-    <state x="654" y="155" width="349" height="614" key="RollbackChangesDialog/67.27.3453.1053@67.27.3453.1053" timestamp="1585055624121" />
-    <state x="254" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1586166265157">
+    <state x="167" y="125" width="1333" height="675" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1600380948535" />
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1599866292058">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="254" y="245" key="com.intellij.ide.util.TipDialog/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1585057795037" />
-    <state x="254" y="245" key="com.intellij.ide.util.TipDialog/67.27.1533.873@67.27.1533.873" timestamp="1586166265157" />
-    <state x="489" y="290" key="com.intellij.ide.util.TipDialog/67.27.3453.1053@67.27.3453.1053" timestamp="1585054797052" />
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1588927176657">
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1599866292058" />
+    <state x="520" y="182" width="617" height="561" key="NewPhpClassDialog" timestamp="1599864936522">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1588927176657" />
-    <state x="655" y="184" width="1514" height="818" key="search.everywhere.popup/67.27.3453.1053@67.27.3453.1053" timestamp="1587410881822" />
+    <state x="520" y="182" width="617" height="561" key="NewPhpClassDialog/67.27.1533.873@67.27.1533.873" timestamp="1599864936522" />
+    <state x="582" y="237" width="386" height="566" key="VcsDiffUtil.ChangesDialog" timestamp="1599850348192">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="582" y="237" width="386" height="566" key="VcsDiffUtil.ChangesDialog/67.27.1533.873@67.27.1533.873" timestamp="1599850348192" />
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1599863857031">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1599863857031" />
   </component>
 </project>

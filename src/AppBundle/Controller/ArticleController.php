@@ -14,7 +14,6 @@ use eZ\Publish\API\Repository\LocationService;
 
 class ArticleController extends Controller
 {
-
     public function fullViewAction(Request $request, ContentView $view)
     {
         $response = new JsonResponse();
