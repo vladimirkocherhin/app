@@ -1,0 +1,72 @@
+#############################################
+-
+    type: content
+    mode: create
+    content_type: phrase
+    parent_location: {{ parent_location|raw }}
+    remote_id: 'rid:phrase{{ id }}'
+    location_remote_id: 'lrid:phrase{{ id }}'
+    lang: eng-GB
+    attributes:
+        title: {{ english }}
+    {% if is_category %}
+references:
+        -
+            identifier: phrase_{{ id }}
+            attribute: location_id
+        {% endif %}
+
+-
+    type: content
+    mode: update
+    content_type: phrase
+    parent_location: {{ parent_location|raw }}
+    remote_id: 'rid:phrase{{ id }}'
+    location_remote_id: 'lrid:phrase{{ id }}'
+    lang: pol-PL
+    attributes:
+        title: {{ polish }}
+
+-
+    type: content
+    mode: update
+    content_type: phrase
+    parent_location: {{ parent_location|raw }}
+    remote_id: 'rid:phrase{{ id }}'
+    location_remote_id: 'lrid:phrase{{ id }}'
+    lang: ukr-UA
+    attributes:
+        title: {{ ukrainian }}
+
+-
+    type: content
+    mode: update
+    content_type: phrase
+    parent_location: {{ parent_location|raw }}
+    remote_id: 'rid:phrase{{ id }}'
+    location_remote_id: 'lrid:phrase{{ id }}'
+    lang: rus-RU
+    attributes:
+        title: {{ russian }}
+
+-
+    type: content
+    mode: update
+    content_type: phrase
+    parent_location: {{ parent_location|raw }}
+    remote_id: 'rid:phrase{{ id }}'
+    location_remote_id: 'lrid:phrase{{ id }}'
+    lang: ger-DE
+    attributes:
+        title: {{ german }}
+
+-
+    type: content
+    mode: update
+    content_type: phrase
+    parent_location: {{ parent_location|raw }}
+    remote_id: 'rid:phrase{{ id }}'
+    location_remote_id: 'lrid:phrase{{ id }}'
+    lang: tur-TR
+    attributes:
+        title: {{ turkish }}
